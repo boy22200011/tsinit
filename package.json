@@ -12,7 +12,8 @@
     "format": "prettier --write \"src/**/*.ts\" ",
     "clean": "rm -rf node_modules package-lock.json ./src/**/*.d.ts ./src/**/*.js",
     "reinstall": "npm run clean && npm install",
-    "rebuild": "npm run reinstall && npm run build"
+    "rebuild": "npm run reinstall && npm run build",
+    "start": "npx ts-node src/index.ts"
   },
   "author": "",
   "license": "ISC",
